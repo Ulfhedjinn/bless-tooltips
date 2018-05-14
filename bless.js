@@ -120,10 +120,10 @@
     app.fetchJSONData = function fetchJSONData() {
         fetch('https://rawgit.com/psykzz/bless-tooltips/master/spell-data.json')
             .then(res => {
+                // I know this is silly i just want to throw an error here if it needs it, can always clean this up later.
                 return res.json();
             })
             .then(data => {
-                console.log(data);
                 const tooltipData = document.querySelector('#bless-tooltipdata').innerHTML = JSON.stringify(data);
             });
     }
