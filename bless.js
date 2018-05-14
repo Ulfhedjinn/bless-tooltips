@@ -13,6 +13,7 @@
         padding: 5px;
         font-size: 12px;
         z-index: 999999;
+        will-change: left, top;
     }
 
     .tooltip-container .icon {
