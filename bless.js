@@ -12,7 +12,6 @@
         color: white;
         padding: 5px;
         font-size: 12px;
-        
     }
 
     .tooltip-container .icon {
@@ -193,6 +192,5 @@
 
     document.addEventListener('DOMContentLoaded', () => {
         app.init();
-        console.log("ready");
     }, false);
 })(window, document);
