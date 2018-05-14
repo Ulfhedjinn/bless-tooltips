@@ -118,16 +118,14 @@
         }
     }
     app.fetchJSONData = function fetchJSONData() {
-        rawJson = fetch('/spell-data.json', {mode: 'no-cors'})
-        .then(res => {
-            return res;
-        })
-        .then(res => res.json())
-        .then(data => {
-            const tooltipData = document.querySelector('#bless-tooltipdata').innerHTML = data;
-        })
-        
-
+        fetch('https://rawgit.com/psykzz/bless-tooltips/master/spell-data.json')
+            .then(res => {
+                return res.json();
+            })
+            .then(data => {
+                console.log(data);
+                const tooltipData = document.querySelector('#bless-tooltipdata').innerHTML = JSON.stringify(data);
+            });
     }
 
     app.attachHandlers = function attachHandlers() {

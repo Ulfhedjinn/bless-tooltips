@@ -21,6 +21,50 @@
         },
         "description": "Deals <dmg>476 damage</dmg> to the enemy and knocks them down"
     },
+    "strike": {
+        "name": "Strike",
+        "icon": "http://via.placeholder.com/50",
+        "attributes": {
+            "cast": "targeted",
+            "range": "4",
+            "cost": null,
+            "cooldown": "1.5"
+        },
+        "description": "Deals <dmg>129 damage</dmg> to the enemy."
+    },
+    "rapid-strike": {
+        "name": "Rapid Strike",
+        "icon": "http://via.placeholder.com/50",
+        "attributes": {
+            "cast": "targeted",
+            "range": "4",
+            "cost": null,
+            "cooldown": null
+        },
+        "description": "Deals <dmg>143 damage</dmg> to the enemy."
+    },
+    "chastise": {
+        "name": "Chastise",
+        "icon": "http://via.placeholder.com/50",
+        "attributes": {
+            "cast": "targeted",
+            "range": "4",
+            "cost": "10% + 45",
+            "cooldown": null
+        },
+        "description": "Deals <dmg>235 damage</dmg> to the enemy.<br /><br />If the enemy is already affected by the <skill>Divine Punishment</skill> or <skill>Smash</skill> effects, other nearby enemies will gain this effect."
+    },
+    "conviction": {
+        "name": "Conviction",
+        "icon": "http://via.placeholder.com/50",
+        "attributes": {
+            "cast": "targeted",
+            "range": "11",
+            "cost": "11% + 50",
+            "cooldown": null
+        },
+        "description": "You fly at the fallen enemy, dealing <dmg>645 damage</dmg> and reducing its movement speed by 20%."
+    },
      "test": {
         "name": "test Spell",
         "icon": "http://via.placeholder.com/50",
