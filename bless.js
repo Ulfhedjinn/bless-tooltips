@@ -179,8 +179,8 @@
     }
 
     app.updateTooltip = function updateTooltip(position) {
-        app.tooltip.style.left = `${position.clientX + 5}px`;
-        app.tooltip.style.top = `${position.clientY + 5}px`;
+        app.tooltip.style.left = `${position.clientX + document.documentElement.scrollLeft + 5}px`;
+        app.tooltip.style.top = `${position.clientY + document.documentElement.scrollTop + 5}px`;
     }
     app.fetchSpellData  = function fetchSpellData (spellName) {
         const rawData = document.getElementById('bless-tooltipdata').textContent;
