@@ -12,7 +12,7 @@
     },
     "verdict": {
         "name": "Verdict",
-        "icon": "http://via.placeholder.com/50",
+        "icon": "https://via.placeholder.com/50",
         "attributes": {
             "cast": "targeted",
             "range": "4",
@@ -23,7 +23,7 @@
     },
     "strike": {
         "name": "Strike",
-        "icon": "http://via.placeholder.com/50",
+        "icon": "https://via.placeholder.com/50",
         "attributes": {
             "cast": "targeted",
             "range": "4",
@@ -34,7 +34,7 @@
     },
     "rapid-strike": {
         "name": "Rapid Strike",
-        "icon": "http://via.placeholder.com/50",
+        "icon": "https://via.placeholder.com/50",
         "attributes": {
             "cast": "targeted",
             "range": "4",
@@ -45,7 +45,7 @@
     },
     "chastise": {
         "name": "Chastise",
-        "icon": "http://via.placeholder.com/50",
+        "icon": "https://via.placeholder.com/50",
         "attributes": {
             "cast": "targeted",
             "range": "4",
@@ -56,7 +56,7 @@
     },
     "conviction": {
         "name": "Conviction",
-        "icon": "http://via.placeholder.com/50",
+        "icon": "https://via.placeholder.com/50",
         "attributes": {
             "cast": "targeted",
             "range": "11",
@@ -67,7 +67,7 @@
     },
      "test": {
         "name": "test Spell",
-        "icon": "http://via.placeholder.com/50",
+        "icon": "https://via.placeholder.com/50",
         "attributes": {
             "cast": "free cast",
             "range": "15",
