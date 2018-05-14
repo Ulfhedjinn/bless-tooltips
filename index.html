@@ -1,16 +1,43 @@
 
 <html>
+    <title>Bless JS tooltips</title>
+    <script defer src="./bless.js"></script>
 
-<script src="./bless.js"> </script>
-
+    <style>
+        .container {
+            width: 600px;
+            margin: 0 auto;
+        }
+        .example {
+            margin: 15px;
+        }
+    </style>
 <body>
-<div>
-    <div>
-        <div data-bless-spell="verdict">verdict</div>
-        <div data-bless-spell="conviction">Conviction</div>
-        <div data-bless-spell="test">test spell</div>
+    <div class="container">
+
+        <h1>Bless Tooltips</h1>
+
+        <h2>Spell examples</h2>
+
+        <section>Hover for to see it in affect!</section>
+
+        <div class="example">
+            <div data-bless-spell="verdict">verdict</div>
+            <div data-bless-spell="conviction">Conviction</div>
+        </div>
+
+        <hr />
+
+        <h2>Example usage</h2>
+
+        <div class="example">
+            <pre>
+    &#x3C;script defer src=&#x22;./bless.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    &#x3C;div data-bless-spell=&#x22;verdict&#x22;&#x3E;verdict&#x3C;/div&#x3E;
+    &#x3C;div data-bless-spell=&#x22;conviction&#x22;&#x3E;Conviction&#x3C;/div&#x3E;
+            </pre>
+            </div>
     </div>
-</div>
 
 </body>
 </html>
