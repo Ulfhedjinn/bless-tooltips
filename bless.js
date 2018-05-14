@@ -21,7 +21,7 @@
     }
     .tooltip-container .name { 
         float: left;
-        width: 170px;
+        width: 160px;
         margin: 5px;
         font-size: 14px;
         letter-spacing: 1;
