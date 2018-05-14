@@ -65,6 +65,39 @@
         },
         "description": "You fly at the fallen enemy, dealing <dmg>645 damage</dmg> and reducing its movement speed by 20%."
     },
+    "retribution": {
+        "name": "Retribution",
+        "icon": "https://via.placeholder.com/50",
+        "attributes": {
+            "cast": "targeted",
+            "range": "20",
+            "cost": "2%",
+            "cooldown": "7"
+        },
+        "description": "When used on an ally, heals the ally."
+    },
+    "sacred-verdict": {
+        "name": "Sacred Verdict",
+        "icon": "https://via.placeholder.com/50",
+        "attributes": {
+            "cast": "targeted",
+            "range": "20",
+            "cost": "18% + 100",
+            "cooldown": "10"
+        },
+        "description": "Deal <dmg>407 damage</dmg> to the enemy and immediately applies 3 stacks of <spell>Divine Punishment</spell> and 5 stacks of <spell>Smash</spell>.<br /><br />The damage will be increased to enemies with <spell>Divine Punishment</spell> and <spell>Smash</spell> applied."
+    },
+    "execute": {
+        "name": "Execute",
+        "icon": "https://via.placeholder.com/50",
+        "attributes": {
+            "cast": "targeted",
+            "range": "5",
+            "cost": "20% + 65",
+            "cooldown": null
+        },
+        "description": "Attacks the enemy, dealing <dmg>1058 damage</dmg>. Additionally, if the enemy has the <spell>Branded</spell> or <spell>Verdict</spell> effect, the <spell>Smash</spell> effect will also be applied, dealing damage over time for 10 seconds. The smash affect can be stacked up to 5 times to deal continous physical damage.."
+    },
      "test": {
         "name": "test Spell",
         "icon": "https://via.placeholder.com/50",
