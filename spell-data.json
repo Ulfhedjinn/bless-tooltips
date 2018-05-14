@@ -1,0 +1,35 @@
+{
+    "template": {
+        "name": "",
+        "icon": "",
+        "attributes": {
+            "cast": "free|targeted",
+            "range": "",
+            "cost": "",
+            "cooldown": ""
+        },
+        "description": ""
+    },
+    "verdict": {
+        "name": "Verdict",
+        "icon": "http://via.placeholder.com/50",
+        "attributes": {
+            "cast": "targeted",
+            "range": "4",
+            "cost": "15% + 50",
+            "cooldown": null
+        },
+        "description": "Deals <dmg>476 damage</dmg> to the enemy and knocks them down"
+    },
+     "test": {
+        "name": "test Spell",
+        "icon": "http://via.placeholder.com/50",
+        "attributes": {
+            "cast": "free cast",
+            "range": "15",
+            "cost": "15% + 50",
+            "cooldown": "10 seconds"
+        },
+        "description": "Does nothing special just tests some stuff out."
+    }
+}
