@@ -12,6 +12,7 @@
         color: white;
         padding: 5px;
         font-size: 12px;
+        z-index: 999999;
     }
 
     .tooltip-container .icon {
